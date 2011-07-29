@@ -1,0 +1,275 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <sys/stat.h>
+#include <signal.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <string.h>
+#include <time.h>
+
+#define MAX_CMD_STR 1024
+
+#ifdef MACRO
+#define MED
+#endif
+
+
+/* Funktion som anropas då användare försöker använda Ctrl+c */
+void
+handler (int signum)
+{
+  fprintf (stderr, "Ctrl+c is disabled\n");
+}
+
+/* Metod som tar in en sträng, kollar efter \n och ersätter detta med \0, räknar även antalet kommandon */
+int
+clean_string (char *str)
+{
+  int i;
+  int counter = 1;
+
+  for (i = 0; i < strlen (str); i++)
+    {
+      /* Ersätter alla enterslag med ingenting */
+      if (str[i] == '\n')
+	{
+	  str[i] = '\0';
+	}
+      /* Räknar upp antalet kommandon med ett för varje mellanslag den hittar */
+      else if (str[i] == ' ')
+	{
+	  counter++;
+	}
+    }
+  return counter;
+}
+
+/* 
+ * Funktion som parsar indata från kommandoraden och delar upp den i kommandon
+ * och lägger in dessa i en "array" med pekare.
+ */
+char **
+parser (char *cmdl_string)
+{
+
+  char **result;
+  char *temp;
+  int i = 0;
+  result = calloc (sizeof (char *), 5);	/* Allokera minne för pekarna i arrayen */
+  temp = strtok (cmdl_string, " ");	/* Parsa efter mellanslag */
+  while (temp != NULL)
+    {				/* Så länge den inte är tom kör detta */
+      result[i] = calloc (sizeof (char), strlen (temp));	/* Fixa plats åt strägen */
+      strncpy (result[i], temp, strlen (temp));	/* Kopiera temp in i result */
+      temp = strtok (NULL, " ");	/* Nästa ord i strängen */
+      i++;
+    }
+
+  return result;		/* Funktionen ska returnera result */
+  free (result);		/* Frigör minne */
+}
+
+/* Funktion som kollar varför en viss process dog */
+void
+checkYdied (pid_t childpid)
+{
+  int status, childstatus;
+
+  if (childpid != -1)
+    {
+      if (WIFEXITED (status))
+	{
+	  childstatus = WEXITSTATUS (status);
+	  if (childstatus != 0)
+	    {			/* om processen dog av sig själv */
+	      printf (", killed with code: %d\n\n", childstatus);
+	    }
+	  else
+	    {			/* Om den dog normalt */
+	      printf (" ended normaly\n\n");
+	    }
+	}
+      else if (WIFSIGNALED (status))
+	{			/* Om processen blir dödad av en signal */
+	  printf (", killed by signal: %d\n", (WTERMSIG (status)));
+	}
+      else if (WCOREDUMP (status))	/* Om processen coredumpar */
+	{
+	  printf (", produced a core dump\n\n");
+	}
+    }
+
+  else
+    {
+      perror ("Waitpid failed");
+    }
+}
+
+/* Funktion som kollar om det finns några avslutade processer */
+void
+wait4child ()
+{
+  pid_t bgcheck = 1;
+  int status;
+  while (bgcheck > 0)
+    {
+      bgcheck = waitpid (-1, &status, WNOHANG);	/* Kolla om det finns några barnprocesser som termineras, vänta inte på att de ska ske. */
+      if (bgcheck > 0)
+	{
+	  fprintf (stderr, "Background process PID: %d terminated",
+		   (int) bgcheck);
+	  checkYdied (bgcheck);	/* Kollar hur en avslutad process avslutades */
+	}
+    }
+}
+
+void
+sighandler (int signum)
+{
+  wait4child ();
+}
+
+/* Mainfunktionen som tar in och kontrollerar kommandona från användaren */
+int
+main (int argc, char **argv)
+{
+
+  int fgets_res, argument_counter;
+  pid_t child_pid;
+  int status, cd_check;
+  char *text_start;
+  char **indata;
+  struct timeval time_start, time_end;
+  struct tm tim;
+  time_t now;
+  now = time (NULL);
+  tim = *(localtime (&now));
+  char string[30];
+  size_t length;
+  text_start = malloc (MAX_CMD_STR);
+  length = strftime (string, 30, "%Y %m %d ; %H:%M:%S\n\n", &tim);
+
+  printf ("Welcome to out über-cruel shell! %s\n", string);
+
+  /* Huvudloopen */
+  while (1)
+    {
+      signal (SIGINT, handler);
+      //kör sighandler.
+#ifdef MED
+      signal (SIGCHLD, sighandler);
+#endif
+      //installera default hanterare, kör wait4child.
+#ifndef MED
+      signal (SIGCHLD, SIG_DFL);
+      wait4child ();
+#endif
+
+      //wait4child(); /* Kollar om några processer avslutats, körs direkt och sen efter varje enter slag */
+      printf ("%s@cruelshell $ ", getenv ("USER"));
+      fgets_res = (int) fgets (text_start, MAX_CMD_STR, stdin);	/* Läser in från prompten */
+      argument_counter = clean_string (text_start);	/* hämtar antalet argument och rensar strängen från \n */
+      if (fgets_res < 0)
+	{
+	  fprintf (stderr, "Failed to get string from cli\n");
+	}
+
+      indata = parser (text_start);	/* Parsar input så man får kommandona i en array */
+
+      /* Kollar om inget kommando skickats med */
+      if (indata[0] == '\0')
+	{
+	  execvp ("", NULL);
+	}
+
+      /* Kollar om första kommandot är "exit" */
+      else if (strcmp (indata[0], "exit") == 0)
+	{
+	  break;
+	}
+
+      /* Kollar om första kommandot är "cd" */
+      else if (strcmp (indata[0], "cd") == 0)
+	{
+	  /* Om den angivna pathen inte finns, ändra till home path */
+	  if ((cd_check = chdir (indata[1])) != 0)
+	    {
+	      chdir (getenv ("HOME"));
+	      fprintf (stderr, "Invalid path, changing to home path\n\n");
+	    }
+	}
+
+      /* Kollar om sista kommandot är "&", alltså om användaren vill starta en bakgrundsprocess */
+      else if (strcmp (indata[argument_counter - 1], "&") == 0)
+	{
+	  indata[argument_counter - 1] = NULL;	/* Ta bort &-tecknet för att kunna köra alla kommandona */
+	  child_pid = fork ();	/* Skapar ny child process */
+	  signal (SIGINT, SIG_IGN);
+	  /* Kör kommandona (max 5) om nya processen är en child */
+	  if (child_pid == 0)
+	    {
+	      execvp (indata[0], indata);
+	      fprintf (stderr, "Not a valid command, please try again\n");
+	      break;
+
+	    }
+	  else if (child_pid < (pid_t) 0)
+	    {
+	      fprintf (stderr, "Fork for environment printing failed.\n");
+	      break;
+	    }
+
+	  fprintf (stderr, "###############\n");
+	  fprintf (stderr, "Background process created with pid: %d\n",
+		   (int) child_pid);
+
+
+	}
+      else
+	{
+
+	  /* Hämtar starttid för den nya processen */
+	  if (gettimeofday (&time_start, NULL) == -1)
+	    {
+	      fprintf (stderr, "Failed to get time\n");
+	    }
+
+	  /* Skapar ny child process */
+	  child_pid = fork ();
+	  signal (SIGINT, SIG_IGN);	/* Kallar på signalhanteraren, förhindrar Ctrl + c */
+	  if (child_pid == 0)
+	    {
+	      execvp (indata[0], indata);
+	      fprintf (stderr, "Not a valid command, please try again\n");
+	      break;
+	    }
+	  else if (child_pid < (pid_t) 0)
+	    {
+	      fprintf (stderr, "Fork for environent printing failed.\n");
+	      break;
+	    }
+
+	  /* Hämtar sluttid för processen */
+	  if (gettimeofday (&time_end, NULL) == -1)
+	    {
+	      fprintf (stderr, "Failed to get time\n");
+	    };
+	  fprintf (stderr, "###############\n");
+	  fprintf (stderr, "Foreground process created with pid: %d\n",
+		   (int) child_pid);
+	  /* Skriver ut exekveringstiden för processen i microsekunder */
+	  printf ("Time to execute: %ld us\n\n",
+		  ((time_end.tv_sec * 1000000 + time_end.tv_usec) -
+		   (time_start.tv_sec * 1000000 + time_start.tv_usec)));
+	  waitpid (child_pid, &status, 0);
+	  printf ("Foreground process terminated\n");
+
+	}
+
+    }
+  return 0;
+}

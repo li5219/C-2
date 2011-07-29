@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdlib.h>
+#include <regex.h>
+
+char *trim(char *inc)
+{
+	int i=0, j=0;
+	char *ret=malloc(strlen(inc));
+	
+	for(; inc[i] != '\0'; i++)
+	{
+		if(!(isspace(inc[i])))
+		{
+			ret[j] = inc[i];
+			j++;
+		}
+		fprintf(stderr, "inc[%d]: %c\tret[%d]: %c", i, inc[i], j, ret[j]);
+	}
+	return ret;
+}
+
+int main()
+{
+	char *nisse, *olle;
+	nisse = malloc(20);
+	nisse = olle = "Hejsan ";
+	nisse = trim(nisse);
+	fprintf(stderr, "Trimmed '%s' to '%s'\n", olle, nisse);
+
+	return 0;
+}

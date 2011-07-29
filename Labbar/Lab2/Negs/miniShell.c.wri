@@ -1,0 +1,250 @@
+#define _XOPEN_SOURCE 500
+#include <signal.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <ctype.h>
+
+
+#define CMDLEN	70
+
+char** MakeArgs(char* qBuf, int* qArgc)
+{
+	int		buflen = strlen(qBuf);
+	int		i, n, t, nSpace, nArgs, fillArg;
+	char**		Args;
+
+	/* convert space characters to whitespace */
+	for(i = 0; i < buflen; i++)
+		if(isspace((int)qBuf[i]))
+			qBuf[i] = ' ';
+
+
+	/* Remove traling space characters */
+	for(i = buflen - 1; i >= 0; i--)
+	{
+		if(!isspace((int)qBuf[i]))
+			break;
+
+		qBuf[i] = '\0';
+		buflen--;
+	};
+
+	/* Remove leading whitespaces */
+	nSpace = 0;
+	while(isspace((int)qBuf[nSpace]))
+		nSpace++;
+
+	if(nSpace > 0)
+		for(i = 0; i < buflen - nSpace + 1; i++)
+			qBuf[i] = qBuf[i + nSpace];
+
+	/* see if there is anything left to make args from */
+	buflen = strlen(qBuf);
+	if(buflen == 0)
+	{
+		*qArgc = 0;
+		return(NULL);
+	};
+
+	/* Find out how many args we have */
+	nArgs = 1;
+	for(i = 0; i < buflen; i++)
+		if(isspace((int)qBuf[i]))
+		{
+			nArgs++;
+			while(isspace((int)qBuf[i]))
+				i++;
+		};
+
+	/* Split up str and sotre in array */
+	Args = (char**)malloc((nArgs + 1) * sizeof(char*));
+	memset(Args, 0, (nArgs + 1) * sizeof(char*));
+
+	fillArg = 0;
+	for(i = 0; i < buflen; i++)
+	{
+		while((qBuf[i] != '\0') && isspace((int)qBuf[i]))
+			i++;
+
+		n = 0;
+		while((qBuf[i + n] != '\0') && !isspace((int)qBuf[i + n]))
+			n++;
+
+		Args[fillArg] = (char*)malloc((n + 1) * sizeof(char));
+		memset(Args[fillArg], 0, (n + 1) * sizeof(char));
+		
+		for(t = 0; t < n; t++)
+			Args[fillArg][t] = qBuf[i + t];
+
+		i += n;
+		fillArg++;
+	};
+
+	*qArgc = nArgs;
+	
+	return(Args);
+};
+
+
+#ifdef SIGNALDETECTION
+/*Handle SIGCHLD by waiting for any terminated processes.*/
+void Handler()
+{
+	pid_t	Check;
+	int	Status;
+
+	while((Check = waitpid(0, &Status, WNOHANG)) > 0)
+
+	if(WIFEXITED(Status))
+		printf("Terminated background process %d with exit code %d\n", Check, WEXITSTATUS(Status));
+	else
+		printf("Status changed for child %d to %d\n", Check, WEXITSTATUS(Status));
+};
+#endif
+
+void WaitPid(pid_t qPid)
+{
+	int	Status;
+
+	if(waitpid(qPid, &Status, 0) == -1)
+	{
+		perror("Waiting for pid.\n");
+		exit(1);
+	};
+
+	if(WIFEXITED(Status))
+		if(WEXITSTATUS(Status) != 0)
+			fprintf(stderr, "Child with PID %d exit with error code: %d.\n", (int)qPid, WEXITSTATUS(Status));
+};
+
+
+
+
+int main(int argc, char** argv)
+{
+	char*			CmdBuf;
+	char**			Argv;
+	int			Argc;
+	int			Run 		= 1;
+	int			i;
+	char*			HomeDir;
+	pid_t			p1;
+	struct timeval		tStart, tStop;
+	
+
+	#ifdef SIGNALDETECTION
+	sigset(SIGCHLD, Handler);
+	printf("Signals ON\n");
+	#else
+	int			Status;
+	pid_t			Check;
+	printf("Signals OFF\n");
+	#endif
+
+	/* so we dont get interupted by Ctrl-C */
+	signal(SIGINT, SIG_IGN);
+
+	while(Run == 1)
+	{
+
+		#ifdef SIGNALDETECTION
+		sighold(SIGCHLD);
+		#else
+		/*Check for terminated background processes*/
+		while((Check = waitpid(-1, &Status, WNOHANG)) > 0)
+			if(WIFEXITED(Status))
+				printf("Terminated background process %d width exit code %d\n", (int)Check, WEXITSTATUS(Status));
+			else
+				printf("Status changed for child %d to %d\n", (int)Check, WEXITSTATUS(Status));
+		#endif
+		
+		CmdBuf = malloc(CMDLEN * sizeof(char));
+		memset(CmdBuf, 0, CMDLEN * sizeof(char));
+
+		printf("miniShell> ");
+		fgets(CmdBuf, CMDLEN, stdin);
+
+		Argv = MakeArgs(CmdBuf, &Argc);
+
+		if(Argc != 0)
+		{
+			if(strncmp(Argv[0], "exit", CMDLEN) == 0)
+			{
+				Run = 0;
+			}
+			else if(strncmp(Argv[0], "cd", CMDLEN) == 0)
+			{
+				char*	Dir = CmdBuf + 2;
+
+				while(isspace((int)*Dir) && (*Dir != '\0'))
+					Dir++;
+
+				if(chdir(Dir) == -1)
+				{
+					printf("Directory doesnt exist, trying home directory.\n");
+					HomeDir = getenv("HOME");
+
+					if(HomeDir == NULL)
+						printf("Cant find home direcotry check env variable $HOME\n");
+					else
+						if(chdir(HomeDir) == -1)
+							printf("Home directory invalid check env variable $HOME\n");
+				};
+			}
+			else if(Argv[Argc - 1][strlen(Argv[Argc - 1]) - 1] == '&')
+			{
+				Argv[Argc - 1][strlen(Argv[Argc - 1]) - 1] = '\0';
+
+				if(strlen(Argv[Argc - 1]) == 0)
+					Argv[Argc - 1] = NULL;
+
+				p1 = fork();
+
+				if(p1 == 0)
+				{
+
+					execvp(Argv[0], Argv);
+					perror("Background execvp");
+					exit(1);
+				};
+
+				printf("Spawned background process pid %d\n", (int)p1);
+			}
+			else
+			{
+				gettimeofday(&tStart, NULL);
+
+				p1 = fork();
+
+				if(p1 == 0)
+				{
+					/* child */
+					execvp(Argv[0], Argv);
+					perror("Foreground execvp");
+					exit(1);
+				};
+
+				printf("Spawned foregorund process pid %d\n", (int)p1);
+				WaitPid(p1);
+				gettimeofday(&tStop, NULL);
+				printf("Terminated foreground pid %d Runtime: %ld msec\n", (int)p1, 1000 * ( tStop.tv_sec - tStart.tv_sec ) + ( tStop.tv_usec - tStart.tv_usec ) / 1000 );
+			};
+		};
+
+		free(CmdBuf);
+		for(i = 0; i < Argc; i++)
+			free(Argv[i]);
+		free(Argv);
+
+		#ifdef SIGNALDETECTION
+		sigrelse(SIGCHLD);
+		#endif
+	};
+
+	return(0);
+};

@@ -1,0 +1,280 @@
+#include <errno.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <time.h>
+
+#define allocated 100
+#ifdef SH
+#define waiter(signal) handlInt(signal)
+#endif
+#ifndef SH
+#define waiter(signal) waitfunc(signal)
+#endif
+
+int checkIfEmpty(char inc[]);
+char* parseEnd(char* inc);
+pid_t id;
+
+/* Funktion that capture Ctrl+c */
+void handler (int signum){
+	fprintf(stderr,"Ctrl+c is disabled\n");
+}
+
+void waitfunc(int signal)
+{
+	int status;
+	if(signal == 0)
+	{
+		waitpid(-1, &status, WNOHANG);
+	}
+	else if(signal == 1)
+	{
+		waitpid (-1, &status, 0);
+	}
+}
+
+void handlInt(int signal)
+{
+
+	//signal(SIGCHILD, sighandler);
+	/*if(signal)
+	{
+		fprintf(stderr, "Killing %d\n", id);
+		kill(id, SIGINT);
+	} else {
+		fprintf(stderr, "\nKilling shell\n");
+		exit(0);
+	}*/
+}
+
+
+void waitChild()
+{
+    pid_t cpid;
+    int status, cstat;
+    
+    if(-1 == (cpid = wait(&status)))
+    {
+        fprintf(stderr, "Error while waiting for child (%d)", cpid);
+    }
+    if(WIFEXITED(status))
+    {
+        cstat = WEXITSTATUS(status);
+        if(0 != cstat)
+        {
+            fprintf(stderr, "Child with PID %ld failed with error: %d\n", (long) cpid, cstat);
+        }
+    }
+    else if(WIFSIGNALED(status))
+    {
+        fprintf(stderr, "Child with PID %ld terminated with signal: %d\n", (long) cpid, WTERMSIG(status));
+    }
+}
+
+char** parseString(char* inc)
+{
+	int test, i = 0, len = strlen(inc) -1;
+	char **result = NULL;	
+	
+	result = malloc(len);
+	test = checkIfEmpty(inc); /*Checking if it's only an enter without any command before*/
+	
+	if(test == 0)
+	{
+		char *ret, delims[], " ", *str = NULL;
+
+		ret = malloc(len);
+   	 	ret = parseEnd(inc); /*removes the \0 in the end of the string*/
+		str = strtok( ret, delims );
+		
+		i = 0;
+		while( str != NULL)
+		{
+			result[i] = str;
+			i = i + 1;
+			str = strtok( NULL, delims );	
+		}
+/*
+                for (i = 0 ; &str != NULL; i++)
+                {
+                        result[i] = str;
+			str = strtok (NULL, delims);
+                }
+*/
+		return result;
+	}
+	else
+	{
+		*result = "empty";
+		return result;
+	}
+}
+
+int checkIfEmpty(char inc[])
+{
+	if(strlen(inc) > 1)
+		return 0;
+	else
+		return 1;
+}
+
+char* parseEnd(char* inc)
+{
+	char *ret;
+    int i, len = strlen(inc) -1;
+    
+    ret=malloc(len);
+    
+    for(i=0; i < len && inc[i]!='\0';i++)
+    {	
+    	ret[i]=inc[i];
+    }
+    return ret;
+}
+
+int lastelement(char *inc[])
+{
+	int i = 0;
+	while( inc[i] != NULL)
+	{
+		i = i + 1;	
+	}
+	i = i - 1;
+	return i;
+}
+
+void changedirectory(char* p)
+{
+	int returnvalue;
+	returnvalue = chdir(p);
+	if(returnvalue == -1)
+	{
+		fprintf(stderr, "%s\n", strerror(errno));
+	}
+}
+
+void go(char **printed, pid_t parent){
+	char *cd = "cd";
+					if(strcmp(printed[0], cd) == 0)
+					{
+						changedirectory(printed[1]);
+					}
+					else
+					{
+						fprintf(stderr, "Parent (%d) created child (%d)\n", parent, getpid());
+						execlp(printed[0], printed[0], NULL);
+						fprintf(stderr, "**** Command not found '%s' ****\n", printed[0]);
+						exit(1);
+					}
+					fprintf(stderr, "Parent (%d) created child (%d)\n", parent, getpid());
+				    }
+
+int main(int argc, char **argv)
+{
+	size_t size = 100;
+	char *buffer = (char *) malloc (size);
+	int fg;
+	
+    	char **printed, *command, *quit = "exit", *bakgrund = "&", *empty = "empty", *cd = "cd";
+   	pid_t childProcess, loopParrent = 1, parent = getpid();
+	struct timeval start, end;
+    	command = malloc(allocated);
+
+
+	while(loopParrent)
+	{
+		fprintf(stderr, "%s in %s: ", getenv("USER"), getcwd(buffer, size));
+		fgets(command, allocated, stdin);
+      	gettimeofday (&start, NULL);
+      	printed = parseString (command);
+		
+		#ifdef SH
+		signal (SIGINT, sighandler);
+		#endif
+
+		if(strcmp(*printed, empty) != 0)
+		{
+			if((strcmp(printed[0], quit)) == 0)
+			{
+				break;
+			}
+			/*-------Background-------*/
+			if(*printed[lastelement(printed)] == *bakgrund)
+			{
+				fg = 0;
+				int status;
+				fprintf(stderr, "**** Background ****\n");
+				childProcess = fork();
+				signal(SIGINT,SIG_IGN);
+				if(childProcess == 0)
+				{
+					go(printed, parent);
+				}
+				else 
+				{
+					//fprintf(stderr, "Parent (%d) created child (%d)\n", getpid(), childProcess);
+					if(childProcess == -1)
+					{
+						char *errmess = "Unknown error";
+						if(EAGAIN == errno)
+							errmess = "Can not allocate page table";
+						if (ENOMEM == errno)
+							errmess = "Can not allocate kernel data";
+						fprintf (stderr, "fork() failed because: %s\n", errmess);
+						exit (1);
+					}
+				}
+				gettimeofday (&end, NULL);
+			  	
+				
+				waiter(fg);
+				//sleep(100);
+				fprintf (stderr, "It took %ld seconds\n", (end.tv_usec - start.tv_usec));
+				//waitpid(-1, &status, WNOHANG);
+				//fprintf (stderr, "It took %ld seconds\n", (end.tv_usec - start.tv_usec));
+			}
+			/*-------Forground-------*/
+			else 
+			{
+				fg = 1;
+				fprintf(stderr, "**** Forgrund ****\n");
+				int status;
+				childProcess = fork();
+				signal(SIGINT,SIG_IGN);
+				if(childProcess == 0)
+				{
+					go(printed, parent);
+				}
+				else 
+				{
+					if(childProcess == -1)
+					{
+						char *errmess = "Unknown error";
+						if(EAGAIN == errno)
+							errmess = "Can not allocate page table";
+						if (ENOMEM == errno)
+							errmess = "Can not allocate kernel data";
+						fprintf (stderr, "fork() failed because: %s\n", errmess);
+						exit (1);
+					}
+				}
+				gettimeofday (&end, NULL);
+			 
+			  	//waitpid (-1, &status, 0);
+				waiter(fg);
+				/*need to capture ctrl-c with signalhandler*/
+			fprintf (stderr, "It took %ld seconds\n", (end.tv_usec - start.tv_usec));
+			waiter(fg);
+			}
+			
+		}	
+	}
+	fprintf(stderr, "Parent ended\n");
+	exit(EXIT_SUCCESS);
+}

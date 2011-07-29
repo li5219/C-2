@@ -1,0 +1,78 @@
+Script started on Mon 01 Dec 2008 12:42:32 PM CET
+]0;rembisch@rembisch-fileserver: ~/Dropbox/Operativsystem/Lab 2rembisch@rembisch-fileserver:~/Dropbox/Operativsystem/Lab 2$ topuptime[3Ptop[Ktopuptimescreen -r[5Pcod4screen -r[3Puptime[3Ptop[K[K[Kex[K[K
+]0;rembisch@rembisch-fileserver: ~/Dropbox/Operativsystem/Lab 2rembisch@rembisch-fileserver:~/Dropbox/Operativsystem/Lab 2$ 
+]0;rembisch@rembisch-fileserver: ~/Dropbox/Operativsystem/Lab 2rembisch@rembisch-fileserver:~/Dropbox/Operativsystem/Lab 2$ exit
+exit
+
+Script done on Mon 01 Dec 2008 12:42:56 PM CET
+Script started on Mon 01 Dec 2008 12:43:05 PM CET
+]0;rembisch@rembisch-fileserver: ~/Dropbox/Operativsystem/Lab 2rembisch@rembisch-fileserver:~/Dropbox/Operativsystem/Lab 2$ ./test
+Welcome to out über-cruel shell! 2008 12 01 ; 12:43:11
+
+
+rembisch@cruelshell $ ls
+a.out  lab2.odt  smallShell.LabPM.pdf  test   test2.c	test.c
+core   Labb 2	 tardus		       test2  test2.c~
+###############
+Foreground process created with pid: 28474
+Time to execute: 3424 us
+
+Foreground process terminated
+rembisch@cruelshell $ ls -l
+###############
+Foreground process created with pid: 28476
+Time to execute: 3066 us
+
+total 224
+-rw-r--r-- 1 rembisch rembisch      0 2008-11-26 14:35 a.out
+-rw------- 1 rembisch rembisch 290816 2008-11-27 15:42 core
+-rw-r--r-- 1 rembisch rembisch  18085 2008-11-25 15:30 lab2.odt
+drwxr-xr-x 2 rembisch rembisch   4096 2008-11-26 15:11 Labb 2
+-rw-r--r-- 1 rembisch rembisch  66822 2008-11-15 12:29 smallShell.LabPM.pdf
+-rw-r--r-- 1 rembisch rembisch    636 2008-12-01 12:42 tardus
+-rwxr-xr-x 1 rembisch rembisch  14215 2008-12-01 12:42 test
+-rwxr-xr-x 1 rembisch rembisch   9588 2008-11-18 17:52 test2
+-rw-r--r-- 1 rembisch rembisch   7098 2008-11-28 18:06 test2.c
+-rw-r--r-- 1 rembisch rembisch   1464 2008-11-18 17:42 test2.c~
+-rw-r--r-- 1 rembisch rembisch   1269 2008-11-18 17:05 test.c
+Foreground process terminated
+rembisch@cruelshell $ gedit &
+###############
+Background process created with pid: 28477
+rembisch@cruelshell $ ls -l
+total 224
+-rw-r--r-- 1 rembisch rembisch      0 2008-11-26 14:35 a.out
+-rw------- 1 rembisch rembisch 290816 2008-11-27 15:42 core
+-rw-r--r-- 1 rembisch rembisch  18085 2008-11-25 15:30 lab2.odt
+drwxr-xr-x 2 rembisch rembisch   4096 2008-11-26 15:11 Labb 2
+-rw-r--r-- 1 rembisch rembisch  66822 2008-11-15 12:29 smallShell.LabPM.pdf
+-rw-r--r-- 1 rembisch rembisch    636 2008-12-01 12:42 tardus
+-rwxr-xr-x 1 rembisch rembisch  14215 2008-12-01 12:42 test
+-rwxr-xr-x 1 rembisch rembisch   9588 2008-11-18 17:52 test2
+-rw-r--r-- 1 rembisch rembisch   7098 2008-11-28 18:06 test2.c
+-rw-r--r-- 1 rembisch rembisch   1464 2008-11-18 17:42 test2.c~
+-rw-r--r-- 1 rembisch rembisch   1269 2008-11-18 17:05 test.c
+###############
+Foreground process created with pid: 28479
+Time to execute: 8073 us
+
+Foreground process terminated
+rembisch@cruelshell $ 
+Background process PID: 28477 terminated, killed by signal: 120
+rembisch@cruelshell $ ge  cd lal  lalalala
+Invalid path, changing to home path
+
+rembisch@cruelshell $ ls
+###############
+Foreground process created with pid: 28484
+Time to execute: 3418 us
+
+2G1520	    DEADJOE    Documents     mbox      tard    Tygmärke.jpg
+core.12193  Desktop    Dropbox	     Opsys     test
+core.22022  digenv.c~  luddeboll.c~  Övningar  test.c
+Foreground process terminated
+rembisch@cruelshell $ exit
+]0;rembisch@rembisch-fileserver: ~/Dropbox/Operativsystem/Lab 2rembisch@rembisch-fileserver:~/Dropbox/Operativsystem/Lab 2$ exit
+exit
+
+Script done on Mon 01 Dec 2008 12:44:51 PM CET

@@ -1,0 +1,379 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff0\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1053\deflangfe1053{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f10\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}
+{\f11\froman\fcharset128\fprq1{\*\panose 02020609040205080304}MS Mincho{\*\falt \'82\'6c\'82\'72 \'96\'be\'92\'a9};}{\f36\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}
+{\f37\fswiss\fcharset0\fprq0{\*\panose 00000000000000000000}Nimbus Sans L{\*\falt Arial};}{\f38\froman\fcharset128\fprq1{\*\panose 00000000000000000000}@MS Mincho;}{\f39\froman\fcharset238\fprq2 Times New Roman CE;}
+{\f40\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f42\froman\fcharset161\fprq2 Times New Roman Greek;}{\f43\froman\fcharset162\fprq2 Times New Roman Tur;}{\f44\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f45\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f46\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f47\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f49\fswiss\fcharset238\fprq2 Arial CE;}
+{\f50\fswiss\fcharset204\fprq2 Arial Cyr;}{\f52\fswiss\fcharset161\fprq2 Arial Greek;}{\f53\fswiss\fcharset162\fprq2 Arial Tur;}{\f54\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f55\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}
+{\f56\fswiss\fcharset186\fprq2 Arial Baltic;}{\f57\fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f59\fmodern\fcharset238\fprq1 Courier New CE;}{\f60\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f62\fmodern\fcharset161\fprq1 Courier New Greek;}
+{\f63\fmodern\fcharset162\fprq1 Courier New Tur;}{\f64\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f65\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f66\fmodern\fcharset186\fprq1 Courier New Baltic;}
+{\f67\fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f151\froman\fcharset0\fprq1 MS Mincho Western{\*\falt \'82\'6c\'82\'72 \'96\'be\'92\'a9};}{\f399\fswiss\fcharset238\fprq2 Tahoma CE;}{\f400\fswiss\fcharset204\fprq2 Tahoma Cyr;}
+{\f402\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f403\fswiss\fcharset162\fprq2 Tahoma Tur;}{\f404\fbidi \fswiss\fcharset177\fprq2 Tahoma (Hebrew);}{\f405\fbidi \fswiss\fcharset178\fprq2 Tahoma (Arabic);}{\f406\fswiss\fcharset186\fprq2 Tahoma Baltic;}
+{\f407\fswiss\fcharset163\fprq2 Tahoma (Vietnamese);}{\f408\fswiss\fcharset222\fprq2 Tahoma (Thai);}{\f421\froman\fcharset0\fprq1 @MS Mincho Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;}{\stylesheet{\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe255\cgrid\langnp1033\langfenp255 \snext0 Normal;}{
+\s1\ql \li0\ri0\sb440\sa60\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \ab\af37\afs34\alang1025 \ltrch\fcs0 \b\f37\fs34\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 heading 1;}{
+\s2\ql \li0\ri0\sb440\sa60\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\af37\afs28\alang1025 \ltrch\fcs0 \b\f37\fs28\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 heading 2;}{
+\s3\ql \li0\ri0\sb440\sa60\nowidctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 \ab\af37\afs24\alang1025 \ltrch\fcs0 \b\f37\fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 heading 3;}{
+\s4\ql \li0\ri0\sb440\sa60\nowidctlpar\wrapdefault\faauto\outlinelevel3\rin0\lin0\itap0 \rtlch\fcs1 \ab\af37\afs24\alang1025 \ltrch\fcs0 \b\f37\fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive 
+\ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20 \ltrch\fcs0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{
+\s15\ql \li0\ri0\sb240\sa120\keepn\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af36\afs28\alang1025 \ltrch\fcs0 \fs28\lang1033\langfe255\loch\f1\hich\af1\dbch\af11\cgrid\langnp1033\langfenp255 \sbasedon0 \snext16 Title;}{
+\s16\ql \li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe255\cgrid\langnp1033\langfenp255 \sbasedon0 \snext16 Body Text;}{
+\s17\ql \li0\ri0\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af36\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe255\loch\f36\hich\af0\dbch\af0\cgrid\langnp1033\langfenp255 \sbasedon16 \snext17 List;}{
+\s18\ql \li0\ri0\sb120\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ai\af36\afs24\alang1025 \ltrch\fcs0 \i\fs24\lang1033\langfe255\loch\f36\hich\af0\dbch\af0\cgrid\langnp1033\langfenp255 \sbasedon0 \snext18 caption;}{
+\s19\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af36\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe255\loch\f36\hich\af0\dbch\af0\cgrid\langnp1033\langfenp255 \sbasedon0 \snext19 Index;}{
+\s20\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 Contents 1;}{
+\s21\ql \fi-431\li1440\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin1440\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 Contents 2;}{
+\s22\ql \fi-431\li2160\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin2160\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 Contents 3;}{
+\s23\ql \fi-431\li2880\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin2880\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 Contents 4;}{\s24\ql \li0\ri0\nowidctlpar
+\tx431\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon1 \snext0 Numbered Heading 1;}{\s25\ql \li0\ri0\nowidctlpar\tx431\wrapdefault\faauto\rin0\lin0\itap0 
+\rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon2 \snext0 Numbered Heading 2;}{\s26\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 
+\ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \snext0 Square List;}{\s27\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 Lower Roman List;}{\s28\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \snext0 Diamond List;}{\s29\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 
+\snext0 Numbered List;}{\s30\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \snext0 Triangle List;}{\s31\ql \li0\ri0\nowidctlpar
+\tx431\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon3 \snext0 Numbered Heading 3;}{
+\s32\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \snext0 Dashed List;}{
+\s33\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon29 \snext0 Upper Roman List;}{
+\s34\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \snext0 Heart List;}{
+\s35\qc \li0\ri0\sb240\sa120\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \ab\af37\afs32\alang1025 \ltrch\fcs0 \b\f37\fs32\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 Contents Header;}{
+\s36\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext36 Normal (Web);}{
+\s37\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon29 \snext0 Upper Case List;}{
+\s38\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \snext0 Bullet List;}{
+\s39\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \snext0 Hand List;}{
+\s40\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \snext0 Tick List;}{
+\s41\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon29 \snext0 Lower Case List;}{
+\s42\ql \li1440\ri1440\sa120\nowidctlpar\wrapdefault\faauto\rin1440\lin1440\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 Block Text;}{\s43\ql \li0\ri0\nowidctlpar
+\tx1584\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon24 \snext0 Section Heading;}{\s44\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 
+\rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \snext0 Implies List;}{\s45\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \snext0 Box List;}{\s46\ql \fi-431\li720\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \snext0 
+Star List;}{\s47\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af2\afs24\alang1025 \ltrch\fcs0 \f2\fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon0 \snext0 Plain Text;}{\s48\ql \li0\ri0\nowidctlpar
+\tx1584\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 \sbasedon24 \snext0 Chapter Heading;}{\*\cs49 \additive \f3\lang0\langfe255\langfenp255 RTF_Num 2 1;}{\*\cs50 
+\additive \lang0\langfe255\langfenp255 RTF_Num 3 1;}{\*\cs51 \additive \lang0\langfe255\langfenp255 RTF_Num 4 1;}{\*\cs52 \additive \lang0\langfe255\langfenp255 Endnote Text;}{\*\cs53 \additive \fs20\lang0\langfe255\langfenp255 Reference;}{\*\cs54 
+\additive \fs20\lang0\langfe255\langfenp255 Footnote Text;}{\*\cs55 \additive \fs20\lang0\langfe255\langfenp255 WW-Reference;}{\*\cs56 \additive \lang0\langfe255\langfenp255 Endnote Symbol;}{\*\cs57 \additive 
+\ul\cf9\lang255\langfe255\langnp255\langfenp255 Internet link;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\listtable{\list\listtemplateid1\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace0
+\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-357\li720\lin720 }{\listname RTF_Num 4;}\listid1}{\list\listtemplateid2\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \fi-357\li720\lin720 }{\listname RTF_Num 3;}\listid2}{\list\listtemplateid3\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'01\'01;}{\levelnumbers;}\f3 \fi-357\li720\lin720 }{\listname RTF_Num 2;}\listid3}{\list\listtemplateid-1423006006\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace360\levelindent0{\leveltext\leveltemplateid69009409\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace360\levelindent0{\leveltext\leveltemplateid69009411\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360
+\levelindent0{\leveltext\leveltemplateid69009413\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0
+{\leveltext\leveltemplateid69009409\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext
+\leveltemplateid69009411\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid69009413
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid69009409
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid69009411
+\'01o;}{\levelnumbers;}\f2\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace360\levelindent0{\leveltext\leveltemplateid69009413
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid892277195}}{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3
+\listoverridecount0\ls3}{\listoverride\listid892277195\listoverridecount0\ls4}}{\*\rsidtbl \rsid5452594\rsid6629941}{\*\generator Microsoft Word 11.0.0000;}{\info{\title Problembeskrivning}{\author aeg}{\operator aeg}{\creatim\yr2008\mo12\dy1\hr16\min42}
+{\revtim\yr2008\mo12\dy1\hr17\min8}{\printim\yr2008\mo12\dy1\hr16\min51}{\version2}{\edmins25}{\nofpages6}{\nofwords1527}{\nofchars8094}{\nofcharsws9602}{\vern24613}{\*\password 00000000}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003
+/wordml}{\xmlns2 urn:schemas-microsoft-com:office:smarttags}}\paperw11905\paperh16837\margl1417\margr1417\margt1417\margb1417\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\hyphhotz425\donotembedsysfont0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3
+\jcompress\viewkind1\viewscale100\rsidroot6629941 \fet0{\*\wgrffmtfilter 013f}\ilfomacatclnup0\ltrpar \sectd \ltrsect\sbknone\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2
+\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe255\cgrid\langnp1033\langfenp255 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\b\lang1053\langfe255\langnp1053\insrsid15467983 Problembeskrivning\line }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langnp1053\insrsid15467983 Uppgiften g\'e5r ut p\'e5 skriva ett shell som ska kunna utf\'f6ra upp till fem kommandon som anv\'e4
+ndaren skriver in. F\'f6rutom standardkommandona ska shellet \'e4ven klara av kommandona cd (f\'f6r att byta arbetsdirectory) och exit (f\'f6r att avsluta). Shellet ska \'e4ven kunna skilja p\'e5 om kommandona ska utf\'f6ras som bak- eller f\'f6
+rgundsprocesser.
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\lang1053\langfe255\langnp1053\insrsid15467983 Programstruktur
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langnp1053\insrsid15467983 Programmet k\'f6r en loop som f\'f6r varje varv utf\'f6r olika kontroller i f\'f6ljande ordning:
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0 \ltrch\fcs0 \f3\lang1053\langfe255\langfenp255 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \ltrpar\ql \fi-360\li720\ri0\nowidctlpar\jclisttab\tx720\wrapdefault\faauto\ls4\rin0\lin720\itap0\pararsid6629941 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langnp1053\insrsid15467983 Kollar om det finns n\'e5gra avslutade processer, antingen via signals (om kompilerad med signalflagga) eller via wait4child (waitpid)
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0 \ltrch\fcs0 \f3\lang1053\langfe255\langfenp255 \loch\af3\dbch\af0\hich\f3 \'b7\tab}L\'e4ser in data fr\'e5n anv\'e4ndaren, r\'e4knar antalet kommandon och parsar igenom.}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid15467983 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0 \ltrch\fcs0 \f3\lang1053\langfe255\langfenp255 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langnp1053\insrsid15467983 Kollar om n\'e5
+got kommando skickats med, om inte skriv ut en ny rad}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0 \ltrch\fcs0 \f3\lang1053\langfe255\langfenp255 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langnp1053\insrsid15467983 Kollar om f\'f6rsta kommandot \'e4
+r exit och avslutar i s\'e5 fall}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0 \ltrch\fcs0 \f3\lang1053\langfe255\langfenp255 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langnp1053\insrsid15467983 Kollar om f\'f6rsta kommandot \'e4
+r cd och byter till directoryn som finns i andra kommandot, om det \'e4r felaktigt s\'e5 s\'e4tts directoryn till anv\'e4ndarens home path ist\'e4llet.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0 \ltrch\fcs0 \f3\lang1053\langfe255\langfenp255 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langnp1053\insrsid15467983 Kollar om sista kommandot \'e4r ett &-tecken 
+\endash  om det \'e4r det startas kommandot som en bakgrundsprocess}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af0 \ltrch\fcs0 \f3\lang1053\langfe255\langfenp255 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langnp1053\insrsid15467983 Om inte punkt 3,4 eller 5 var sann s\'e5
+ startas kommandot som en f\'f6rgrundsprocess och ber\'e4knar tiden f\'f6r exekvering.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\lang1053\langfe255\langnp1053\insrsid15467983 Filkatalog
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\field{\*\fldinst {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 HYPERLINK "mailto:Rickmo@shell.it.kth.se" }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b3c0000006d00610069006c0074006f003a005200690063006b006d006f0040007300680065006c006c002e00690074002e006b00740068002e00730065000000}}}{\fldrslt {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cs57\ul\cf9\insrsid15467983 Rickmo@shell.it.kth.se}}}\sectd \sbknone\linex0\sectdefaultcl\sftnbj {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par Private/Labb2/minishell.c
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\lang1053\langfe255\langnp1053\insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \b\lang1053\langfe255\langnp1053\insrsid15467983 Utskrift och kompilering}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langnp1053\insrsid15467983 Kompileringskommandon:
+\par gcc -o minishell \endash Wall minishell.c}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langnp1053\insrsid15467983 gcc -o minishell -DMACRO \endash Wall minishell.c (n\'e4r avslutade processer ska kollas av signaler)}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\lang1053\langfe255\langnp1053\insrsid15467983 F\'f6rberedelsefr\'e5gor
+\par }\pard\plain \ltrpar\s36\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1053\langfe255\cgrid\langnp1053\langfenp255 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par {\pntext\pard\plain\ltrpar \s36 \rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langfenp255 \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \ltrpar\s36\ql \fi-357\li720\ri0\sb100\sa100\nowidctlpar\wrapdefault{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0
+\pndec\pnstart1\pnindent360\pnsp120\pnhang {\pntxta .}}\faauto\ls2\rin0\lin720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 Motivera varf\'f6r det ofta \'e4r bra att exekvera kommandon i en separat process.\line }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\i\insrsid15467983 Svar: Om man exekverar kommandon i separata processer s\'e5 kommer de inte kunna blandas ihop eller krocka med varandra och att en ny process inte tar \'f6ver den nuvarande.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par {\pntext\pard\plain\ltrpar \s36 \rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langfenp255 \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \ltrpar\s36\ql \fi-357\li720\ri0\sb100\sa240\nowidctlpar\wrapdefault{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0
+\pndec\pnstart2\pnindent360\pnsp120\pnhang {\pntxta .}}\faauto\ls1\rin0\lin720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 Vad h\'e4nder om man inte i kommandotolken exekverar wait() f\'f6r en barn-process som avslutas? \line }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \i\insrsid15467983 Svar: Om barnprocesserna avslutas men f\'f6r\'e4lderprocessen inte har v\'e4ntat p\'e5 dem, blir barnprocesserna zombieprocesser i systemet (f\'f6r att barnprocessernas returv\'e4rden inte ska f\'f6rsvinna).}{\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid15467983 
+\par {\pntext\pard\plain\ltrpar \s36 \rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langfenp255 \hich\af0\dbch\af0\loch\f0 3.\tab}}\pard \ltrpar\s36\ql \fi-357\li720\ri0\sb100\sa100\nowidctlpar\wrapdefault{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0
+\pndec\pnstart2\pnindent360\pnsp120\pnhang {\pntxta .}}\faauto\ls1\rin0\lin720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 Hur skall man utl\'e4sa SIGSEGV?\line }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid15467983 Svar: Signal Segmentationfault
+\line }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }\pard \ltrpar\s36\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 Varf\'f6r kan man inte blockera SIGKILL? \line }{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \i\insrsid15467983 Svar: SIGKILL ska inte kunna blockeras d\'e5 man m\'e5ste kunna avsluta en process som inte fungerar.\line }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par {\pntext\pard\plain\ltrpar \s36 \rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langfenp255 \hich\af0\dbch\af0\loch\f0 4.\tab}}\pard \ltrpar\s36\ql \fi-357\li720\ri0\sb100\sa240\nowidctlpar\wrapdefault{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0
+\pndec\pnstart2\pnindent360\pnsp120\pnhang {\pntxta .}}\faauto\ls1\rin0\lin720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 Hur skall man utl\'e4sa deklarationen void (*disp)(int))?\line }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid15467983 
+Svar: En pekare till en void funktion som tar in en int som argumment.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }\pard \ltrpar\s36\ql \li0\ri0\sb100\sa100\nowidctlpar\wrapdefault{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 Vilket systemanrop anv\'e4nder sigset({\*\xmlopen\xmlns2{\factoidname 
+metricconverter}{\xmlattr\xmlattrns0{\xmlattrname ProductID}{\xmlattrvalue 3C}}}3C{\*\xmlclose}) troligtvis f\'f6r att installera en signalhanterare?\line }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid15467983 Svar: sighandler_t sigset ?}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \insrsid15467983 
+\par {\pntext\pard\plain\ltrpar \s36 \rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langfenp255 \hich\af0\dbch\af0\loch\f0 5.\tab}}\pard \ltrpar\s36\ql \fi-357\li720\ri0\sb100\sa100\nowidctlpar\wrapdefault{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0
+\pndec\pnstart2\pnindent360\pnsp120\pnhang {\pntxta .}}\faauto\ls1\rin0\lin720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 Hur g\'f6r man f\'f6r att din kommandotolk inte skall termineras d\'e5 en f\'f6rgrundsprocess i den t
+ermineras med <Ctrl-c>? \line }{\rtlch\fcs1 \af0 \ltrch\fcs0 \i\insrsid15467983 Svar: Vi f\'e5ngar in alla Ctrl + c till en funktion som ignorerar dem ex. signal(sigint, fkn);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang1033\langfe255\cgrid\langnp1033\langfenp255 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\lang1053\langfe255\langnp1053\insrsid15467983 Verksamhetsber\'e4ttelser och synpunkter
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe255\langnp1053\insrsid15467983 Arbetet fl\'f6t p\'e5 bra, vi kom ig\'e5ng snabbt och b\'f6rjade implementera funktioner till shellet. Det sv\'e5ra med uppgiften var att hantera bakgrundsprocesser p\'e5
+ ett korrekt s\'e4tt. Sen att f\'e5 till signalerna med signalflaggorna tog en del tid \'e4ven det. Men nu signalerar processerna bra n\'e4r de d\'f6r.  
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\insrsid15467983 K\'e4llkod
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par #}{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 include <stdio.h>}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0\afs18 \ltrch\fcs0 \fs18\insrsid15467983 #include <stdlib.h>
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #include <sys/types.h>}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #include <sys/wait.h>}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #include <sys/stat.h>}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #include <signal.h>}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #include <sys/time.h>}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #include <unistd.h>}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #include <errno.h>}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #include <fcntl.h>}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #include <string.h>}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #include <time.h>}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #define MAX_CMD_STR 1024}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #ifdef MACRO}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #define MED}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 #endif}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 /* Funktion som anropas d\'e5 anv\'e4ndare f\'f6rs\'f6ker anv\'e4nda Ctrl+c */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 void handler (int signum)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab fprintf(stderr,"Ctrl+c is disabled\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 /* Metod som tar in en str\'e4ng, kollar efter \\n och ers\'e4tter detta med \\0, r\'e4knar \'e4ven antalet kommandon */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 int clean_string(char* str)}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par     }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 int i;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par     }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 int counter = 1;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par     
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe1053\langnp1053\langfenp1053\insrsid15467983     }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\lang1033\langfe1053\langfenp1053\insrsid15467983 for(i = 0; i < strlen(str); i++)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\lang1053\langfe1053\langnp1053\langfenp1053\insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983     }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab /* Ers\'e4tter alla enterslag med ingenting */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 if (str[i] == '\\n')\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab str[i] = '\\0';}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par     }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par     }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab /* R\'e4knar upp antalet kommandon med ett f\'f6r varje mellanslag den hittar */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par     }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab else if(str[i] == ' ')\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par     }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab counter++;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab return counter;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 /* }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 * Funktion som parsar indata fr\'e5n kommandoraden och delar upp den i kommandon}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 * och l\'e4gger in dessa i en "array" med pekare.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 char **parser(char *cmdl_string)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab char **result;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab char *temp;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab int i = 0;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab result = calloc (sizeof (char *), 5); /* Allokera minne f\'f6r pekarna i arrayen */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab temp = strtok (cmdl_string, " "); /* Parsa efter mellanslag */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab while (temp != NULL)\{ /* S\'e5 l\'e4nge den inte \'e4r tom k\'f6r detta */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab result[i] = calloc (sizeof (char), strlen (temp)); /* Fixa plats \'e5t str\'e4gen */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab strncpy (result[i], temp, strlen (temp));  /* Kopiera temp in i result */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab temp = strtok(NULL, " "); /* N\'e4sta ord i str\'e4ngen */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab i++;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab return result; /* Funktionen ska returnera result */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab free(result); /* Frig\'f6r minne */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 /* Funktion som kollar varf\'f6r en viss process dog */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 void checkYdied(pid_t childpid)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab int status, childstatus;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab if(childpid != -1)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab if(WIFEXITED(status))\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab childstatus = WEXITSTATUS(status);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab if(childstatus != 0)\{ /* om processen dog av sig sj\'e4lv */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab printf(", killed with code: %d\\n\\n", childstatus);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab else\{/* {\*\xmlopen\xmlns2{\factoidname place}}Om{\*\xmlclose} den dog normalt */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab printf(" ended normaly\\n\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab else if(WIFSIGNALED(status))\{ /* {\*\xmlopen\xmlns2{\factoidname place}}Om{\*\xmlclose} processen blir d\'f6dad av en signal */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab printf(", killed by signal: %d\\n", (WTERMSIG(status)));}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab else if (WCOREDUMP(status))/* {\*\xmlopen\xmlns2{\factoidname place}}Om{\*\xmlclose} processen coredumpar */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab   printf (", produced a core dump\\n\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab else\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab perror( "Waitpid failed" );}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 /* Funktion som kollar om det finns n\'e5gra avslutade processer */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 void wait4child()\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab pid_t bgcheck = 1;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab int status;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab while (bgcheck > 0) \{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab bgcheck = waitpid(-1, &status, WNOHANG); /* Kolla om det finns n\'e5gra barnprocesser som termineras, v\'e4nta inte p\'e5 att de ska ske. */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab if (bgcheck > 0) \{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab fprintf(stderr,"Background process PID: %d terminated", (int)bgcheck);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab checkYdied(bgcheck); /* Kollar hur en avslutad process avslutades */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 void sighandler (int signum)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab wait4child();}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 /* Mainfunktionen som tar in och kontrollerar kommandona fr\'e5n anv\'e4ndaren */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 int main(int argc, char **argv)\{\tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab int fgets_res, argument_counter;\tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab pid_t child_pid;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab int status, cd_check;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab char *text_start;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab char **indata;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab struct timeval time_start, time_end;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab struct tm tim;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab time_t now;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab now = time(NULL);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab tim = *(localtime(&now));}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab char string[30];}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab size_t length;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab text_start = malloc(MAX_CMD_STR);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab length = strftime(string,30,"%Y %m %d ; %H:%M:%S\\n\\n",&tim);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab printf("Welcome to out \'fcber-cruel shell! %s\\n", string);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab /* Huvudloopen */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab while(1)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab signal(SIGINT,handler);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab //k\'f6r sighandler.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab #ifdef MED}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab signal(SIGCHLD, sighandler);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab #endif}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab //installera default hanterare, k\'f6r wait4child.}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab #ifndef MED}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab signal(SIGCHLD, SIG_DFL);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab wait4child();}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab #endif}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab    \tab //wait4child(); /* Kollar om n\'e5gra processer avslutats, k\'f6rs direkt och sen efter varje enter slag */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab printf ("%s@cruelshell $ ", getenv ("USER"));}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab fgets_res = (int)fgets(text_start, MAX_CMD_STR, stdin);/* L\'e4ser in fr\'e5n prompten */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab argument_counter = clean_string(text_start);/* h\'e4mtar antalet argument och rensar str\'e4ngen fr\'e5n \\n */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab if(fgets_res < 0)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab     fprintf(stderr, "Failed to get string from cli\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par         
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe1053\langnp1053\langfenp1053\insrsid15467983         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\lang1033\langfe1053\langfenp1053\insrsid15467983 indata = parser(text_start);/* Parsar input s\'e5 man f\'e5
+r kommandona i en array */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe1053\langnp1053\langfenp1053\insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983         
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe1053\langnp1053\langfenp1053\insrsid15467983         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\lang1033\langfe1053\langfenp1053\insrsid15467983 /* Kollar om inget kommando skickats med */}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \lang1053\langfe1053\langnp1053\langfenp1053\insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 if(indata[0] == '\\0')\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab execvp("", NULL);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \}\tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab /* Kollar om f\'f6rsta kommandot \'e4r "exit" */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab else if(strcmp(indata[0], "exit") == 0)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab     break;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par         
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1053\langfe1053\langnp1053\langfenp1053\insrsid15467983         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\lang1033\langfe1053\langfenp1053\insrsid15467983 /* Kollar om f\'f6rsta kommandot \'e4r "cd" */}{\rtlch\fcs1 \af0 
+\ltrch\fcs0 \lang1053\langfe1053\langnp1053\langfenp1053\insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 else if(strcmp(indata[0], "cd") == 0)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab /* {\*\xmlopen\xmlns2{\factoidname place}}Om{\*\xmlclose} den angivna pathen inte finns, \'e4ndra till home path */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab if((cd_check = chdir(indata[1])) != 0)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab chdir(getenv("HOME"));}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par         }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab fprintf(stderr, "Invalid path, changing to home path\\n\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab /* Kollar om sista kommandot \'e4r "&", allts\'e5 om anv\'e4ndaren vill starta en bakgrundsprocess */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab else if(strcmp(indata[argument_counter-1], "&" ) == 0 )\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab indata[argument_counter-1] = NULL; /* Ta bort &-tecknet f\'f6r att kunna k\'f6ra alla kommandona */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab child_pid = fork(); /* Skapar ny child process */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab signal(SIGINT,SIG_IGN);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab /* K\'f6r kommandona (max 5) om nya processen \'e4r en child */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab if(child_pid == 0)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab execvp(indata[0],indata);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab fprintf(stderr, "Not a valid command, please try again\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab break;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \} else if (child_pid < (pid_t) 0)\{\tab \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab fprintf (stderr, "Fork for environment printing failed.\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab break;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab fprintf(stderr, "###############\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab fprintf (stderr, "Background process created with pid: %d\\n", (int)child_pid);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab else \{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab /* H\'e4mtar starttid f\'f6r den nya processen */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab if(gettimeofday(&time_start, NULL) == -1) \{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab fprintf(stderr, "Failed to get time\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab /* Skapar ny child process */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab child_pid = fork();}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab signal (SIGINT, SIG_IGN); /* Kallar p\'e5 signalhanteraren, f\'f6rhindrar Ctrl + c */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab if(child_pid == 0)\{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab execvp(indata[0],indata);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab fprintf(stderr, "Not a valid command, please try again\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab break;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \} else if (child_pid < (pid_t) 0)\{\tab \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab fprintf (stderr, "Fork for environent printing failed.\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab break;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab /* H\'e4mtar sluttid f\'f6r processen */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab if(gettimeofday(&time_end, NULL) == -1) \{}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab fprintf(stderr, "Failed to get time\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \};}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab fprintf(stderr, "###############\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab fprintf (stderr, "Foreground process created with pid: %d\\n", (int)child_pid);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab /* Skriver ut exekveringstiden f\'f6r processen i microsekunder */}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab printf("Time to execute: %ld us\\n\\n", ((time_end.tv_sec * 1000000 + time_end.tv_usec) - (time_start.tv_sec * 1000000 + time_start.tv_usec)));}{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab waitpid(child_pid, &status, 0);}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab printf("Foreground process terminated\\n");}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \tab \tab \tab \tab \tab \tab \tab \tab \tab }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \tab return 0;}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \fs18\insrsid15467983 \}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid15467983 
+\par 
+\par }}
