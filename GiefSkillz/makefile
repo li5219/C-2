@@ -1,5 +1,5 @@
-testVarArgList :
-	gcc -Wall -o testVarArgList testVarArgList.c
+testErrno :
+	gcc -Wall -o testErrno testErrno.c
 
 clean :
 	rm test
