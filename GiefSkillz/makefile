@@ -1,5 +1,5 @@
-testErrno :
-	gcc -Wall -o testErrno testErrno.c
+testSetTime :
+	gcc -Wall -o testSetTime testSetTime.c
 
 clean :
-	rm test
+	rm testSetTime
