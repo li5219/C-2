@@ -1,0 +1,5 @@
+try1 : try1.c
+	gcc -Wall -o try1 try1.c
+
+clean :
+	rm try1
