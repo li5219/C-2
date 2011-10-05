@@ -10,3 +10,9 @@ nisse
 
 *** File '(Unnamed)'
 simplePrompt.c
+
+*** These modified files were found in JOE when it aborted on Wed Oct  5 15:55:46 2011
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+ctrlTest.c

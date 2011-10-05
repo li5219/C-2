@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <sys/stat.h>
+#include <time.h>
+
+int *
+getTime (struct tm *clock, struct stat attributes)
+{
+  int time[3];
+
+  stat ("testSetTime.c", &attributes);	// get the attributes of afile.txt
+  clock = gmtime (&(attributes.st_mtime));	// Get the last modified time and put it into the time structure
+
+  time[0] = clock->tm_year + 1900;
+  time[1] = clock->tm_mon + 1;
+  time[2] = clock->tm_mday;
+
+  return &time;
+}
+
+int
+main ()
+{
+  struct tm *clock;		// create a time structure
+  struct stat attrib;		// create a file attribute structure
+  int *time = getTime (clock, attrib);
+
+
+  printf ("Time changed for testSetTime.c is:\n");
+  printf ("\tYear:\t\t %d\n", time[0]);
+  printf ("\tMonth:\t\t %d\n", time[1]);
+  printf ("\tDay of month:\t %d\n", time[2]);
+
+  return 0;
+}

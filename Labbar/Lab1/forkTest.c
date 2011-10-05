@@ -4,7 +4,7 @@
 #include <stdlib.h>		/* definierar bland annat exit() */
 #include <unistd.h>		/* definierar bland annat fork() */
 
-pid_t childpid;			/* processid som returneras fråa fork */
+pid_t childpid;			/* processid som returneras från fork */
 
 int main ()
 {
